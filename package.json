@@ -1,0 +1,15 @@
+{
+  "name": "inote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd Frontend/inote  && npm run start",
+    "backend": "cd Backend && npm run devStart",
+    "both": "concurrently \" npm run frontend \" \"npm run backend \" "
+  },
+  "author": "",
+  "license": "ISC"
+}
+

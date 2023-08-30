@@ -1,0 +1,1 @@
+ we have used concurrently to run both the frontend react app and the backend nodemon server simultaneously
